@@ -68,11 +68,11 @@ public class Hotel {
 		int option13 = sc.nextInt();
 		switch(option13)
 		{
-		case 1:System.out.println("your panipuri Ordered Please Wait for a while to get Ready");
+		case 1:System.out.println("your rotis Ordered Please Wait for a while to get Ready");
 		break;
-		case 2:System.out.println("your gobii is Ordered Please Wait for a while to get Ready");
+		case 2:System.out.println("your northmeals is Ordered Please Wait for a while to get Ready");
 		break;
-		case 3:System.out.println("your vegroll Ordered Please Wait for a while to get Ready");
+		case 3:System.out.println("your Southmeals Ordered Please Wait for a while to get Ready");
 		break;
 		default :System.out.println("You have only 3 options");
 		break;
