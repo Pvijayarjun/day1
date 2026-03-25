@@ -1,23 +1,28 @@
-package studentpackage;
+package InterfacePackage;
 
-public class Rectangle {
-	 int length;
-	    int width;
-
-	    // parameterized constructor
-	    Rectangle(int l, int w) {
-	        length = l;
-	        width = w;
-	    }
-
-	    void area() {
-	        System.out.println(length * width);
-	    }
+public class Rectangle implements Shape {
+	double length,height,breadth;
 	
-	    public static void main(String[] args) {
+	public void findarea(double length,double breadth,double height) {
+		this.length=length;
+		this.breadth=breadth;
+		this.height=height;
+		}
 
-	        Rectangle r = new Rectangle(5, 4);
+	
+	
+	@Override
+	
+	public void findArea() {
+		double area = length*breadth;
+		System.out.println(area);
+	}
+	
+	
+	
+	@Override
+	public void findVolume() {
+		System.out.println (length*breadth*height);
+		}
 
-	        r.area();
-	    }
 }
